@@ -10,12 +10,13 @@
   <meta property="og:title" content="FitPixio">
   <meta property="og:description" content="Make any photo meet an upload requirement. 100% on-device.">
   <meta property="og:type" content="website">
+  <link rel="preload" as="image" href="/assets/logo-480.png" fetchpriority="high">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <header class="nav">
     <a class="brand" href="/">
-      <img src="/assets/logo.png" alt="FitPixio logo" height="36">
+      <img src="/assets/logo-480.png" alt="FitPixio logo" width="66" height="36" loading="lazy" decoding="async">
     </a>
     <nav>
       <a href="#how">How it works</a>
@@ -29,7 +30,7 @@
 
   <main>
     <section class="hero">
-      <img class="hero-logo" src="/assets/logo.png" alt="FitPixio — Resize. Make your photos fit.">
+      <img class="hero-logo" src="/assets/logo-480.png" width="480" height="262" fetchpriority="high" decoding="async" alt="FitPixio — Resize. Make your photos fit.">
       <h1>Make any photo meet an upload&nbsp;requirement.</h1>
       <p class="lede">Set a file size, dimensions and format. Tap <strong>MAKE&nbsp;IT&nbsp;FIT</strong>.
         FitPixio produces the highest quality that fits — and verifies every byte.</p>
